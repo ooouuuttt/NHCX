@@ -1,0 +1,303 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "237ed66c-1bad-4815-be2c-52dbc5712ceb",
+        "name": "Aditya Birla Health Insurance Co. Limited"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "InsurancePlan",
+        "id": "878e2125-3220-4374-b1d1-f4a8661308d0",
+        "status": "active",
+        "name": "Group Protect",
+        "ownedBy": {
+          "reference": "Organization/237ed66c-1bad-4815-be2c-52dbc5712ceb"
+        },
+        "coverage": [
+          {
+            "type": {
+              "text": ""
+            },
+            "benefit": [
+              {
+                "type": {
+                  "text": "OPD Expenses: Indemnity for Reasonable and Customary Charges incurred towards Medically Necessary Treatment taken by the Insured Person during the Policy Period for an Illness, Injury."
+                }
+              },
+              {
+                "type": {
+                  "text": "Pharmacy Expenses: Indemnity for Reasonable and Customary Charges incurred towards medically required pharmacy expenses on an out-patient basis."
+                }
+              },
+              {
+                "type": {
+                  "text": "100% of the Sum Insured shall be payable on the diagnosis of Major Stage Cancer."
+                }
+              },
+              {
+                "type": {
+                  "text": "100% of the Sum Insured shall be payable on the diagnosis of Advanced Stage Cancer."
+                }
+              },
+              {
+                "type": {
+                  "text": "50% of the Sum Insured or ₹10 Lacs, whichever is lower, shall be payable on the diagnosis of Early Stage Cancer (Carcinoma-in-situ)."
+                }
+              },
+              {
+                "type": {
+                  "text": "Maximum liability under this Option during the lifetime of the Insured Person: 150% of the Sum Insured."
+                }
+              },
+              {
+                "type": {
+                  "text": "Monthly limit for hospitalization due to Injury/Illness as specified in the Policy Schedule."
+                }
+              },
+              {
+                "type": {
+                  "text": "Daily limit for palliative care for Advanced Stage Cancer as specified in the Policy Schedule."
+                }
+              },
+              {
+                "type": {
+                  "text": "Limit for genetic testing for detected Illness as specified in the Policy Schedule."
+                }
+              },
+              {
+                "type": {
+                  "text": "Limit for reconstructive surgery for Major Stage Cancer or Advanced Stage Cancer as specified in the Policy Schedule."
+                }
+              },
+              {
+                "type": {
+                  "text": "genetic testing of the Insured Person for the same detected Illness"
+                }
+              },
+              {
+                "type": {
+                  "text": "monthly limit for hospitalization due to Injury/Illness"
+                }
+              },
+              {
+                "type": {
+                  "text": "monthly payment for every 30 days of continuous disability"
+                }
+              },
+              {
+                "type": {
+                  "text": "medical expenses incurred at Network Providers / Empaneled Service Providers"
+                }
+              },
+              {
+                "type": {
+                  "text": "coverage for Medical Expenses incurred during hospitalization for covered Illness"
+                }
+              },
+              {
+                "type": {
+                  "text": "Day Care Treatment for covered Illness"
+                }
+              },
+              {
+                "type": {
+                  "text": "Conventional treatments for Cancer including organ transplantation"
+                }
+              },
+              {
+                "type": {
+                  "text": "Advanced treatments for Cancer"
+                }
+              },
+              {
+                "type": {
+                  "text": "In-patient Hospitalization for covered Illness"
+                }
+              },
+              {
+                "type": {
+                  "text": "Pre-hospitalization Medical Expenses for covered Illness"
+                }
+              },
+              {
+                "type": {
+                  "text": "Post-hospitalization Medical Expenses for covered Illness"
+                }
+              },
+              {
+                "type": {
+                  "text": "Emergency Road Ambulance Cover for transportation due to covered Illness"
+                }
+              },
+              {
+                "type": {
+                  "text": "Follow Up care Post treatment for covered Illness"
+                }
+              },
+              {
+                "type": {
+                  "text": "Hospital Cash Benefit for each continuous and completed 24 hours of Hospitalization"
+                }
+              },
+              {
+                "type": {
+                  "text": "Hospital Cash Benefit"
+                }
+              },
+              {
+                "type": {
+                  "text": "Major Illnesses In-patient Hospitalization"
+                }
+              },
+              {
+                "type": {
+                  "text": "Pre-hospitalization Medical Expenses"
+                }
+              },
+              {
+                "type": {
+                  "text": "Post-hospitalization Medical Expenses"
+                }
+              },
+              {
+                "type": {
+                  "text": "Emergency Road Ambulance Cover"
+                }
+              },
+              {
+                "type": {
+                  "text": "Pre-hospitalization Medical Expenses for Major Illness"
+                }
+              },
+              {
+                "type": {
+                  "text": "Post-hospitalization Medical Expenses for Major Illness"
+                }
+              },
+              {
+                "type": {
+                  "text": "In-patient Hospitalization Medical Expenses for covered Illness"
+                }
+              },
+              {
+                "type": {
+                  "text": "Room Rent up to Single Private A/C Room category"
+                }
+              },
+              {
+                "type": {
+                  "text": "ICU Charges"
+                }
+              },
+              {
+                "type": {
+                  "text": "Operation theatre expenses"
+                }
+              },
+              {
+                "type": {
+                  "text": "Investigative tests or diagnostic procedures related to covered Illness"
+                }
+              },
+              {
+                "type": {
+                  "text": "Medication as per medical prescription during hospitalization"
+                }
+              },
+              {
+                "type": {
+                  "text": "OPD Expenses"
+                }
+              },
+              {
+                "type": {
+                  "text": "Cancer Secure Cover"
+                }
+              },
+              {
+                "type": {
+                  "text": "Income Protect"
+                }
+              },
+              {
+                "type": {
+                  "text": "Heart Diseases Cover"
+                }
+              },
+              {
+                "type": {
+                  "text": "Cancer Assure Cover"
+                }
+              },
+              {
+                "type": {
+                  "text": "Major Illness Cover – Domestic Hospitalization"
+                }
+              },
+              {
+                "type": {
+                  "text": "Credit Protect"
+                }
+              },
+              {
+                "type": {
+                  "text": "Associated Medical Expenses including Room Rent, nursing charges, operation theatre charges, fees of Medical Practitioner including surgeon/anaesthetist/specialist within the same Hospital where the Insured Person has been admitted."
+                }
+              },
+              {
+                "type": {
+                  "text": "Cashless facility for treatment costs."
+                }
+              },
+              {
+                "type": {
+                  "text": "Domiciliary Hospitalization for medical treatment at home under specific circumstances."
+                }
+              },
+              {
+                "type": {
+                  "text": "Day Care Treatment for medical treatment or surgical procedures undertaken in less than 24 hours."
+                }
+              },
+              {
+                "type": {
+                  "text": "Home confinement treatment under specific conditions"
+                }
+              },
+              {
+                "type": {
+                  "text": "In-patient care for a minimum of 24 consecutive hours"
+                }
+              },
+              {
+                "type": {
+                  "text": "ICU charges including bed, medical support services, and critical care nursing"
+                }
+              },
+              {
+                "type": {
+                  "text": "Post-hospitalization medical expenses for a predefined number of days"
+                }
+              },
+              {
+                "type": {
+                  "text": "Pre-hospitalization medical expenses for a predefined number of days"
+                }
+              },
+              {
+                "type": {
+                  "text": "Medically necessary treatment"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

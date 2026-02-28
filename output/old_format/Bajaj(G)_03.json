@@ -1,0 +1,53 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "787a2480-7f4f-488b-b7d3-def68f07ce4f",
+        "name": "Bajaj Allianz General Insurance Company Limited"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "InsurancePlan",
+        "id": "bd63bfc7-de40-4d18-aea0-c13d8bcb043c",
+        "status": "active",
+        "name": "Health Prime (Group) Rider",
+        "ownedBy": {
+          "reference": "Organization/787a2480-7f4f-488b-b7d3-def68f07ce4f"
+        },
+        "coverage": [
+          {
+            "type": {
+              "text": ""
+            },
+            "benefit": [
+              {
+                "type": {
+                  "text": "Unlimited Medical Coverage"
+                }
+              },
+              {
+                "type": {
+                  "text": "Unlimited Radiology Expenses"
+                }
+              },
+              {
+                "type": {
+                  "text": "Unlimited Investigations Cover – Pathology & Radiology Expenses"
+                }
+              },
+              {
+                "type": {
+                  "text": "Free health check-up benefit"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

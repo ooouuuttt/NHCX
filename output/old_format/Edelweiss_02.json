@@ -1,0 +1,38 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "72658acb-7cac-4731-99ec-2712fd82741d",
+        "name": "Edelweiss General Insurance Company Limited"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "InsurancePlan",
+        "id": "168a5f65-e5a5-4889-8ecb-a2242ea6145c",
+        "status": "active",
+        "name": "Corona Rakshak Policy",
+        "ownedBy": {
+          "reference": "Organization/72658acb-7cac-4731-99ec-2712fd82741d"
+        },
+        "coverage": [
+          {
+            "type": {
+              "text": ""
+            },
+            "benefit": [
+              {
+                "type": {
+                  "text": "Lump sum benefit equal to 100% of the Sum Insured shall be payable on positive diagnosis of COVID, requiring hospitalization for a minimum period of 72 hours."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

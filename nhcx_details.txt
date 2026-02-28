@@ -1,0 +1,52 @@
+﻿Coverage entries: 2
+  1. Base Coverage: 16 benefits
+  2. Extension Coverage: 1 benefits
+
+Benefit type systems: {'https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-benefit-type'}
+
+Limits: 3/17
+
+NHCX Benefit Codes Used:
+  ambulance-cover: Emergency Road Ambulance Cover
+  benefit: Follow Up care Post treatment
+  benefit: Income Protect - Monthly Benefit
+  daycare-benefit: Day Care Treatment
+  hospitalization-benefit: Cancer In-patient Hospitalization
+  hospitalization-benefit: Cancer Secure Cover - Genetic Testing
+  hospitalization-benefit: Cancer Secure Cover - Palliative Care
+  hospitalization-benefit: Cancer Secure Cover - Reconstructive Surgery
+  hospitalization-benefit: Cardiac Indemnity In-patient Hospitalization
+  hospitalization-benefit: Hospital Cash Benefit
+  hospitalization-benefit: Major Illnesses In-patient Hospitalization
+  hospitalization-benefit: Preferred Provider Network
+  opd-benefit: OPD Expenses
+  post-hospitalization: Post ΓÇô hospitalization Medical Expenses
+  post-hospitalization: Post-hospitalization Medical Expenses
+  pre-hospitalization: Pre ΓÇô hospitalization Medical Expenses
+  pre-hospitalization: Pre-hospitalization Medical Expenses
+
+Exclusion cost entries:
+  Non Allopathic treatment: type=True, value=True
+  Hospitalization as donor for another person's organ transplantation: type=True, value=True
+  Pre-Existing Disease: type=True, value=True
+  Specified disease / procedure waiting period: type=True, value=True
+  First 30 Days Waiting Period: type=True, value=True
+  War or Act of War: type=True, value=True
+  Breach of Law: type=True, value=True
+  Hazardous or Adventure Sports: type=True, value=True
+  Alcoholism and Substance Abuse: type=True, value=True
+  Refractive Error: type=True, value=True
+  Cosmetic or Plastic Surgery: type=True, value=True
+  Circumcisions: type=True, value=True
+  Change-of-Gender Treatments: type=True, value=True
+  Non-Allopathic Treatment: type=True, value=True
+  Experimental Treatment: type=True, value=True
+  Unproven Treatments: type=True, value=True
+  Preventive Care: type=True, value=True
+  Hearing Aids and Spectacles: type=True, value=True
+  Alopecia and Baldness Treatments: type=True, value=True
+  Prosthesis and Durable Medical Equipment: type=True, value=True
+  Maternity Expenses: type=True, value=True
+  Dental Treatment: type=True, value=True
+  Treatment from Excluded Providers: type=True, value=True
+  Treatment Outside India: type=True, value=True

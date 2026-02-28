@@ -1,0 +1,105 @@
+﻿============================================================
+NHCX COMPLETE COMPLIANCE REPORT
+============================================================
+
+Total resources in Bundle: 7
+  1. Organization (id: 85cd57c8-5e5...)
+  2. InsurancePlan (id: f2acd413-a6f...)
+  3. Group (id: 45fbc6fa-7be...)
+  4. Coverage (id: 0d5fb405-e6d...)
+  5. CoverageEligibilityRequest (id: 9fd52f8c-33f...)
+  6. Claim (id: 134a117d-958...)
+  7. ClaimResponse (id: 72a873b3-d39...)
+
+IRDAI Reg No: 153
+
+Coverage resource: YES
+  subscriber: {'reference': 'Patient/45fbc6fa-7bed-4808-beb9-cc90714cc721'}
+  payor: Aditya Birla Health Insurance Co. Limited
+  class: Group Protect
+
+Patient/Group resource: YES
+Claim resource: YES
+ClaimResponse resource: YES
+CoverageEligibilityRequest: YES
+
+InsurancePlan.coverage entries: 2
+  - Base Coverage: 24 benefits
+  - Extension Coverage: 2 benefits
+
+Benefit.type system: {'https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-benefit-type'}
+Benefits with limits: 26/26
+
+IRDAI Exclusion Codes:
+  Excl01: Pre-Existing Disease
+  Excl02: Specified disease / procedure waiting period
+  Excl03: First 30 Days Waiting Period
+  Excl10: Breach of law
+  Excl09: Hazardous or Adventure sports
+  Excl12: Treatment for Alcoholism, drug or substance abuse
+  Excl15: Refractive Error
+  Excl07: Change-of-Gender treatments
+  Excl16: Unproven Treatments
+  Excl18: Maternity Expenses
+  Excl14: Dietary Supplements
+  Excl11: Excluded Providers
+
+generalCost (premium):  
+
+BENEFIT LIST:
+
+  [Base Coverage]
+     1. [opd-benefit] [req:Y] [lim:Y] OPD Expenses
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+     2. [benefit] [req:Y] [lim:Y] Cancer Secure Cover
+        -> 100.0 % (As per Policy Schedule)
+     3. [opd-benefit] [req:Y] [lim:Y] Post Cancer OPD Consultations/Medication
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+     4. [benefit] [req:Y] [lim:Y] Palliative Care
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+     5. [diagnostic-benefit] [req:Y] [lim:Y] Genetic Testing
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+     6. [benefit] [req:Y] [lim:Y] Income Protect
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+     7. [benefit] [req:Y] [lim:Y] Preferred Provider Network
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+     8. [benefit] [req:Y] [lim:Y] Heart Secure Cover
+        -> 100.0 % (As per Policy Schedule)
+     9. [hospitalization-benefit] [req:Y] [lim:Y] Heart Transplant
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    10. [hospitalization-benefit] [req:Y] [lim:Y] Cancer Assure Cover
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    11. [hospitalization-benefit] [req:Y] [lim:Y] Cancer In-patient Hospitalization
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    12. [daycare-benefit] [req:Y] [lim:Y] Day Care Treatment
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    13. [pre-hospitalization] [req:Y] [lim:Y] Pre-hospitalization Medical Expenses
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    14. [post-hospitalization] [req:Y] [lim:Y] Post-hospitalization Medical Expenses
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    15. [ambulance-cover] [req:Y] [lim:Y] Emergency Road Ambulance Cover
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    16. [benefit] [req:Y] [lim:Y] Follow Up care Post treatment
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    17. [benefit] [req:Y] [lim:Y] Hospital Cash Benefit
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    18. [hospitalization-benefit] [req:Y] [lim:Y] Major Illnesses Cover - Domestic Hospitalization
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    19. [hospitalization-benefit] [req:Y] [lim:Y] In-patient Care
+        -> 90.0 days (Waiting period)
+    20. [hospitalization-benefit] [req:Y] [lim:Y] Artery By-Pass surgery
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    21. [hospitalization-benefit] [req:Y] [lim:Y] Heart Valve Replacement
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    22. [hospitalization-benefit] [req:Y] [lim:Y] Surgical treatment for Stroke
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    23. [pre-hospitalization] [req:Y] [lim:Y] Pre ΓÇô hospitalization Medical Expenses
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+    24. [post-hospitalization] [req:Y] [lim:Y] Post ΓÇô hospitalization Medical Expenses
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+
+  [Extension Coverage]
+     1. [mental-health] [req:Y] [lim:Y] Counseling Sessions
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)
+     2. [surgery-benefit] [req:Y] [lim:Y] Reconstructive Surgery Benefit
+        -> 0.0 INR (As per Policy Schedule / Certificate of Insurance)

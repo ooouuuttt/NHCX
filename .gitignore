@@ -1,0 +1,38 @@
+# ── Environment & Secrets ──
+.env
+.env.*
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual Environment ──
+nhcx/
+venv/
+.venv/
+env/
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ──
+logs/*.log
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Output (optional — uncomment to track outputs) ──
+# output/*.json
+output/pending/
+output/rejected/

@@ -1,0 +1,151 @@
+# ──────────────────────────────────────────────────────────────
+# NHCX Benefit & Coverage Mapping Configuration
+#
+# This file normalizes insurer-specific terminology into
+# standard NHCX-aligned benefit names and coverage types.
+#
+# benefit_mapping:  keyword → standard display name
+#   LLM-extracted benefit names are matched (case-insensitive,
+#   substring match) against keys. If matched, the value is used.
+#
+# exclusion_categories:  keyword → exclusion classification
+#
+# coverage_types:  plan coverage type normalization
+# ──────────────────────────────────────────────────────────────
+
+benefit_mapping:
+  # Inpatient
+  inpatient: In-Patient Hospitalization
+  hospitalisation: In-Patient Hospitalization
+  hospitalization: In-Patient Hospitalization
+  hospital care: In-Patient Hospitalization
+
+  # Pre/Post Hospitalization
+  pre-hospitali: Pre-Hospitalization Medical Expenses
+  pre hospitali: Pre-Hospitalization Medical Expenses
+  post-hospitali: Post-Hospitalization Medical Expenses
+  post hospitali: Post-Hospitalization Medical Expenses
+
+  # Day Care
+  daycare: Day Care Treatment
+  day care: Day Care Treatment
+
+  # OPD
+  opd: OPD Expenses
+  out-patient: OPD Expenses
+  outpatient: OPD Expenses
+
+  # ICU
+  icu: ICU Charges
+  intensive care: ICU Charges
+
+  # Room Rent
+  room rent: Room Rent
+  room charges: Room Rent
+
+  # Ambulance
+  ambulance: Ambulance Cover
+  road ambulance: Road Ambulance Cover
+  air ambulance: Air Ambulance Cover
+
+  # Maternity
+  maternity: Maternity Cover
+  childbirth: Maternity Cover
+  newborn: New Born Baby Cover
+
+  # Organ Donor
+  organ donor: Organ Donor Cover
+  living donor: Organ Donor Cover
+
+  # AYUSH
+  ayush: AYUSH Treatment
+  ayurvedic: AYUSH Treatment
+  homeopathic: AYUSH Treatment
+  unani: AYUSH Treatment
+  siddha: AYUSH Treatment
+  naturopathy: AYUSH Treatment
+
+  # Domiciliary
+  domiciliary: Domiciliary Hospitalization
+  home treatment: Domiciliary Hospitalization
+
+  # Mental Health
+  mental: Mental Illness Treatment
+  psychiatric: Mental Illness Treatment
+
+  # Dental
+  dental: Dental Treatment
+
+  # Rehabilitation
+  rehabilitation: Rehabilitation Treatment
+  physiotherapy: Physiotherapy
+
+  # Emergency
+  emergency: Emergency Treatment
+
+  # Critical Illness
+  critical illness: Critical Illness Cover
+
+  # Dialysis / Chemotherapy
+  dialysis: Dialysis Treatment
+  chemotherapy: Chemotherapy
+  radiotherapy: Radiotherapy
+
+  # No Claim Bonus
+  no claim bonus: No Claim Bonus
+  ncb: No Claim Bonus
+  cumulative bonus: Cumulative Bonus
+
+  # Restoration
+  restoration: Sum Insured Restoration
+  recharge: Automatic Recharge
+
+  # Personal Accident Specifics
+  accidental death: Accidental Death Benefit
+  permanent total: Permanent Total Disablement
+  permanent partial: Permanent Partial Disablement
+  temporary total: Temporary Total Disablement
+  education grant: Children's Education Grant
+  orphan: Orphan Benefit
+  parental care: Parental Care Benefit
+  reconstructive: Reconstructive Surgery Benefit
+
+
+exclusion_categories:
+  # Permanent exclusions
+  cosmetic: permanent
+  self-inflicted: permanent
+  war: permanent
+  nuclear: permanent
+  adventure sport: permanent
+  alcohol: permanent
+  drug: permanent
+  sterility: permanent
+  infertility: permanent
+  obesity: permanent
+  weight management: permanent
+
+  # Time-bound exclusions (waiting period applies)
+  pre-existing: time_bound
+  cataract: time_bound
+  hernia: time_bound
+  joint replacement: time_bound
+  knee replacement: time_bound
+  hysterectomy: time_bound
+
+  # Conditional
+  experimental: conditional
+  unproven: conditional
+
+
+coverage_types:
+  health: Medical
+  medical: Medical
+  accident: Accident
+  personal accident: Personal Accident
+  critical illness: Critical Illness
+  top_up: Top-Up
+  super top up: Super Top-Up
+  group: Group Medical
+  family_floater: Family Floater
+  individual: Individual

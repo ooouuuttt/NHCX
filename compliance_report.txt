@@ -1,0 +1,89 @@
+﻿============================================================
+FHIR BUNDLE COMPLIANCE REPORT
+============================================================
+
+RULE 1 ΓÇö InsurancePlan.identifier (UIN)
+  system: https://irdai.gov.in/uin
+  value:  ADIHLGP22023V032122
+  Γ£à PASS
+
+RULE 2 ΓÇö Organization telecom
+  Entries: 3
+    phone: 1800 270 7000
+    email: care.healthinsurance@adityabirlacapital.com
+    url: www.adityabirlahealth.com/healthinsurance
+  Γ£à PASS
+
+RULE 3 ΓÇö Benefit requirement completeness
+  Total benefits: 16
+  With requirement: 16
+  Incomplete: 0
+  Γ£à PASS
+
+RULE 4 ΓÇö benefit.limit presence
+  Benefits with limits: 3/16
+    Income Protect - Monthly Benefit: 30.0 days (Maximum benefit duration)
+    Income Protect - Monthly Benefit: 7.0 days (Waiting period)
+    Post-hospitalization Medical Expenses: 90.0 days (Waiting period)
+    Major Illnesses In-patient Hospitalization: 90.0 days (Waiting period)
+  Γ£à PASS
+
+RULE 5 ΓÇö Waiting periods as structured limits
+  Benefits with waiting period limits: 3
+    - Income Protect - Monthly Benefit
+    - Post-hospitalization Medical Expenses
+    - Major Illnesses In-patient Hospitalization
+  Γ£à PASS
+
+RULE 6 ΓÇö Correct coding systems
+  Benefit.type systems: {'https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-benefit-type'}
+  Γ¥î FAIL
+  InsurancePlan.type system: http://terminology.hl7.org/CodeSystem/insurance-plan-type
+  Γ£à PASS
+  Exclusion category system: https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-plan-cost-type
+  Γ£à PASS
+
+RULE 7 ΓÇö No hallucinated benefits
+  Unique benefit names: 16
+  Duplicates: NONE
+  Γ£à PASS
+
+RULE 8 ΓÇö Network element
+  network: [{'reference': 'Organization/334dde88-bf0d-4f91-ad16-feb8c3563ce0', 'display': 'Aditya Birla Health Insurance Co. Limited Network Hospitals'}]
+  Γ£à PASS
+
+RULE 9 ΓÇö Contact element
+  contact: [{'purpose': {'text': 'Customer Service'}, 'telecom': [{'system': 'phone', 'value': '1800 270 7000'}]}]
+  Γ£à PASS
+
+RULE 10 ΓÇö Period element
+  period: {}
+  ΓÜá∩╕Å (depends on PDF content)
+
+============================================================
+PLAN NAME: Group Protect
+ownedBy: Aditya Birla Health Insurance Co. Limited
+administeredBy: Aditya Birla Health Insurance Co. Limited
+Extensions: 0
+============================================================
+
+BENEFIT LIST:
+   1. [Γ£ôreq] [Γ£ùlim] OPD Expenses
+   2. [Γ£ôreq] [Γ£ùlim] Cancer Secure Cover - Palliative Care
+   3. [Γ£ôreq] [Γ£ùlim] Cancer Secure Cover - Genetic Testing
+   4. [Γ£ôreq] [Γ£ôlim] Income Protect - Monthly Benefit
+      ΓööΓöÇ 30.0 days (Maximum benefit duration) | 7.0 days (Waiting period)
+   5. [Γ£ôreq] [Γ£ùlim] Preferred Provider Network
+   6. [Γ£ôreq] [Γ£ùlim] Cancer In-patient Hospitalization
+   7. [Γ£ôreq] [Γ£ùlim] Day Care Treatment
+   8. [Γ£ôreq] [Γ£ùlim] Pre-hospitalization Medical Expenses
+   9. [Γ£ôreq] [Γ£ôlim] Post-hospitalization Medical Expenses
+      ΓööΓöÇ 90.0 days (Waiting period)
+  10. [Γ£ôreq] [Γ£ùlim] Emergency Road Ambulance Cover
+  11. [Γ£ôreq] [Γ£ùlim] Follow Up care Post treatment
+  12. [Γ£ôreq] [Γ£ùlim] Hospital Cash Benefit
+  13. [Γ£ôreq] [Γ£ôlim] Major Illnesses In-patient Hospitalization
+      ΓööΓöÇ 90.0 days (Waiting period)
+  14. [Γ£ôreq] [Γ£ùlim] Cardiac Indemnity In-patient Hospitalization
+  15. [Γ£ôreq] [Γ£ùlim] Pre ΓÇô hospitalization Medical Expenses
+  16. [Γ£ôreq] [Γ£ùlim] Post ΓÇô hospitalization Medical Expenses

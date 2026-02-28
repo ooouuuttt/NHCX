@@ -1,0 +1,123 @@
+﻿Consider using the pymupdf_layout package for a greatly improved page layout analysis.
+14: Benefits under this Section II are subject to the terms, conditions and exclusions of this Policy. The Sum Insured and/or the sub-limit for each
+16: Policy. Payment of the Benefit shall be subject to the availability of the Sum Insured/applicable sub-limit for that Benefit. Our maximum, total and
+18: not exceed the Sum Insured/sub-limit specified against the applicable Benefit in the Policy Schedule / Certificate of Insurance / Product Benefit
+24: Policy Period for an Illness, Injury if it is contracted or sustained by an Insured Person during the Policy Period up to the limits as specified in t
+34: Certificate of Insurance, within Our Network only if opted which are incurred on an out-patient basis up to the limits as specified in the Policy
+41: Any out-patient consultation which costs more than the limits as specified in the Policy Schedule / Certificate of Insurance / Product
+51: Schedule / Certificate of Insurance, which are incurred on an out-patient basis up to the limits as specified in the Policy Schedule / Certificate
+58: Any out-patient diagnostic test which costs more than the limits as specified in the Policy Schedule / Certificate of Insurance / Product
+68: out-patient basis up to the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy.
+73: Any out-patient pharmacy expenses which cost more than the limits as specified in the Policy Schedule / Certificate of Insurance / Product
+84: The Sum Insured for each Benefit / Stage of Cancer under this Benefit shall be as specified against that Benefit in the Policy Schedule / Certificate
+90: Aditya Birla Health Insurance Co. Limited
+98: Limits for the Additional Benefits mentioned under Sections II.2.1 to Section II.2.6 to Cancer Secure Cover are over and above the Sum Insured of
+105: while the Policy is in force, then We shall pay the percentage of the Sum Insured as specified for that covered Illness under the Option opted for,
+126: Our maximum liability under this Option during the lifetime of the Insured Person: 100% of the Sum Insured as specified in the Policy
+134: iii) On the diagnosis of a Major Stage Cancer as defined below, 100% of the Sum Insured shall be payable. Once a claim for Major Stage
+143: On the diagnosis of an Advanced Stage Cancer as defined below, 100% of the Sum Insured shall be payable. Once a claim for Advanced
+163: Maximum liability under this Option during the lifetime of the Insured Person: 150% of the Sum Insured as specified in the Policy Schedule
+174: iii) On the diagnosis of an Early Stage Cancer (Carcinoma-in-situ) as defined below, 50% of the Sum Insured or Rs. 10 Lacs, whichever is
+180: On the diagnosis of a Major Stage Cancer: 100% of the Sum Insured shall be payable. Once a claim for Major Stage Cancer becomes
+186: On the diagnosis of an Advanced Stage Cancer, 150% of the Sum Insured shall be payable. Once a claim for Advanced Stage Cancer
+195: admissible, the total payment under the Option shall be limited to 150% of the Sum Insured.
+238: Permutation | Event | Benefit Pay out as % of the Sum Insured | Cover terminates
+241: Permutation | Event | Benefit Pay out as % of the Sum Insured | Cover terminates
+298: neoplasm of unknown behavior, or non-invasive, including but not limited to: Carcinoma in situ of breasts, Cervical dysplasia CIN-1,
+422: (v) The E-opinion provided under this Benefit shall be limited to the covered Illnesses and not be valid for any medico legal purposes.
+446: admissible under Section II.2 Cancer Secure Cover , then We shall pay the limit applicable for this Benefit, divided equally and paid for the
+457: The limit specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy is limited to per Insured Person
+467: claim becomes admissible under Section II.2 Cancer Secure Cover, then We shall pay the limit per counselling session applicable for this Benefit
+476: The limit specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy is limited to per Insured Person\
+491: admissible under Section II.2 Cancer Secure Cover, then We shall pay the limit for this Benefit as specified in the Policy Schedule / Certificate of
+498: The limit specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy is limited to per Insured Person
+508: Cancer Secure Cover, then We shall pay the daily limit for this Benefit, up to a maximum period as specified in the Policy Schedule / Certificate
+515: The limit specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy is limited to per Insured Person
+525: admissible under Section II.2 Cancer Secure Cover, then We shall pay the limit for this Benefit as specified in the Policy Schedule / Certificate of
+534: The limit specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy is limited to per Insured Person
+542: We shall pay the monthly limit as specified for this Benefit in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy
+747: opted for, during the Policy Period and while the Policy is in force, then We shall pay the Sum Insured as set out for that covered Illness provided
+758: Our maximum liability during the lifetime of the Insured Person: 100% of the Sum Insured.
+833: the realization of surgery has to be confirmed by a specialist medical practitioner. Catheter based techniques including but not limited to, balloon
+933: I.   Class III: Marked limitation of physical activity. Comfortable at rest, but less than ordinary activity causes symptoms.
+1007: a.  Any In-situ Cancer which is limited to the epithelium where it originated and did not invade the stroma or the surrounding tissues.
+1056: If the Insured Person is admitted in a room category/limit that is higher than the one that is specified in the Policy Schedule / Certificate of
+1100: covered Illness as specified under Section II.6 (a) that is first diagnosed or first manifests itself during the Policy Period, up to the limits as
+1132: the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this Policy.
+1146: (a) that is first diagnosed or first manifests itself during the Policy Period on a reimbursement basis, up to the limits specified against this
+1165: Section II.6 (a) that is first diagnosed or first manifests itself during the Policy Period on a reimbursement basis, up to the limits specified
+1183: We shall cover the costs incurred up to the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this
+1222: We shall cover the costs incurred up to the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this
+1293: All claims paid under this Section II.8 will impact the Sum Insured available under this Benefit.
+1339: If the Insured Person is admitted in a room category/limit that is higher than the one that is specified in the Policy Schedule / Certificate of
+1395: cancer including but not limited to leukemia, lymphoma and sarcoma (except cutaneous
+1397: II. Any In-situ Cancer which is limited to the epithelium where it originated and did not
+1412: II. The following are excluded: Catheter based techniques including but not limited to,
+1466: II.We will be covering Surgical Treatment of Stroke limited to;
+1474: tumour | I. We will be covering surgical treatment of Benign solid brain tumour limited to;
+1494: that is first diagnosed or first manifests itself during the Policy Period on a reimbursement basis, up to the Sum Insured, for the number of days
+1512: that is first diagnosed or first manifests itself during the Policy Period on a reimbursement basis, up to the Sum Insured, for the number of days
+1529: We shall cover the costs incurred up to the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this
+1584: 15 | Surgical treatment of Coma | I. We will be covering surgical treatment of Coma limited to;
+1622: Schedule / Certificate of Insurance / Product Benefit Table of this Policy as on the date of the Accident, subject to the maximum limit specified
+1649: this Policy, that such Insured Person shall have died as a result of an Accident. If, at any time, after the payment of the Sum Insured payable
+1770: If the Insured Person is admitted in a room category/limit that is higher than the one that is specified in the Policy Schedule / Certificate of
+1824: II. The following are excluded: Catheter based techniques including but not limited to, balloon
+1852: II.We will be covering surgical treatment of Stroke limited to;
+1868: (a) that is first diagnosed or first manifests itself during the Policy Period on a reimbursement basis, up to the Sum Insured, for the number of
+1886: (a) that is first diagnosed or first manifests itself during the Policy Period on a reimbursement basis, up to the Sum Insured, for the number of
+1967: We shall cover the costs incurred up to the limits as specified in the Policy Schedule / Certificate of Insurance / Product Benefit Table of this
+2028: In case of enhancement of sum insured the exclusion shall apply afresh to the extent of sum insured increase.
+2031: If the Insured Person is continuously covered without any break as defined under the portability norms of the extant IRDAI (Health Insurance)
+2064: In case of enhancement of sum insured the exclusion shall apply afresh to the extent of sum insured increase.
+2076: If the Insured Person is continuously covered without any break as defined under the applicable norms on portability stipulated by IRDAI,
+2129: The within referred waiting period is made applicable to the enhanced sum insured in the event of granting higher sum insured
+2228: hazardous or adventure sports, including but not limited to, para-jumping, rock climbing, mountaineering, rafting, motor racing, horse racing
+2471: 37. Expenses which are medically not required such as items of personal comfort and convenience including but not limited to television (if
+2483: consequence of an otherwise covered claim Non-Medical Expenses including but not limited to RMO, CMO, DMO charges, surcharges, night
+2496: 39. Treatment charges or fees charged by any Medical Practitioner acting outside the scope of license or registration granted to him by any
+2511: 42. Dietary supplements and substances that can be purchased without prescription, including but not limited to Vitamins, minerals and organic
+2516: 43. Charges related to a Hospital stay not expressly mentioned as being covered, including but not limited to charges for admission, discharge,
+2519: administration, registration, documentation and filing, including MRD charges (medical records department charges).
+2884: List of documentation as referred above will include but is not limited to the following:
+2890: Original bills with detailed breakup of charges (including but not limited to pharmacy purchase bill, consultation bill, diagnostic bill) and any
+2899: All original reports, including but not limited to all medical reports, case histories, investigation reports, treatment papers, discharge
+3161: the accrued continuity benefits such as cumulative bonus, waiver of waiting period. as per IRDAI guidelines, provided the policy has been
+3171: offering indemnity health insurance policies, if applicable, in accordance with the Portability guidelines issued by the IRDAI.
+3177: migration of the policy atleast 30 days before the policy renewal date as per IRDAI guidelines on Migration. lf such person is presently covered
+3181: get the accrued continuity benefits in waiting periods as per IRDAI guidelines on migration.
+3266: by the insured person shall be obliged to settle the claim as long as the claim is within the limits of and according to the terms of the
+3275: other policy / policies even if the sum insured is not exhausted. Then the insurer shall independently settle the claim subject to the terms
+3281: lf the amount to be claimed exceeds the sum insured under a single policy, the insured person shall have the right to choose insurer from
+3348: Any dispute concerning the interpretation of the terms, conditions, limitations and/ or exclusions contained herein shall be governed by Indian
+3418: years would be applicable from date of enhancement of Sum Insured only on the enhanced limits. After the expiry of Moratorium Period, no
+3422: be subject to all limits, sub limits, co-payments as per the terms and conditions of the Policy
+3433: Address : Aditya Birla Health insurance Co. Limited
+3455: Grievance may also be lodged at IRDAI lntegrated Grievance Management System - https:/igms.irda.gov.in/
+3531: specified percentage of the admissible claims amount. A co-payment does not reduce the Sum Insured.
+3591: before any benefits are payable by the insurer. A deductible does not reduce the Sum Insured.
+3638: registered as  a hospital with the local authorities under Clinical Establishments (Registration and Regulation) Act 2010 or under enactments
+3661: 29. IRDAI means the Insurance Regulatory and Development Authority of India.
+3742: 44. Medical Practitioner means a person who holds a valid registration from the Medical Council of any State or Medical Council of India or
+3782: limits to which Benefits under the Policy are subject to, including any Annexures and/or endorsements, made to or on it from time to time,
+3832: 61. Qualified Nurse means a person who holds a valid registration from the Nursing Council of India or the Nursing Council of any state in
+3858: 69. Sum Insured means the amount specified in the Policy Schedule or Certificate of Insurance against an Insured Person which is Our
+3866: 71. Third Party Administrator (TPA) means a Company registered with the IRDAI, and engaged by an insurer, for a fee or by whatever name
+3877: 74. We/Our/Us means Aditya Birla Health Insurance Company Limited.
+3882: Aditya Birla Health Insurance Co. Limited. IRDAI Reg.153. CIN No. U66000MH2015PLC263677.
+3887: Private Limited. This trademark/Logo is being used by Aditya Birla Insurance Co. Limited under licensed user
+3888: agreement.emark/Logos are being used by Aditya Birla Health Insurance Co. Limited under licensed user agreement(s).
+3900: Aditya Birla Health Insurance Co. Limited
+3964: The updated details of Insurance Ombudsman offices are available on the IRDAI website:
+3966: www.irdai.gov.in
+3973: Aditya Birla Health Insurance Co. Limited. IRDAI Reg.153. CIN No. U66000MH2015PLC263677.
+3978: Private Limited. These trademark/Logos are being used by Aditya Birla Health Insurance Co. Limited under licensed user
+4041: Aditya Birla Health Insurance Co. Limited
+4190: Aditya Birla Health Insurance Co. Limited. IRDAI Reg.153. CIN No. U66000MH2015PLC263677.
+4195: Private Limited. These trademark/Logos are being used by Aditya Birla Health Insurance Co. Limited under licensed user
+4200: 1 | ADMISSION/REGISTRATION CHARGES
+4225: Aditya Birla Health Insurance Co. Limited
+4261: Services Private Limited | Building No. 198, Old Barahi Road,
+4424: with respect to any health insurance policies Of Aditya Birla Health Insurance Company Limited.
+4431: Aditya Birla Health Insurance Co. Limited. IRDAI Reg.153. CIN No. U66000MH2015PLC263677.
+4436: Private Limited. These trademark/Logos are being used by Aditya Birla Health Insurance Co. Limited under licensed user

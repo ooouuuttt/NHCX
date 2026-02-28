@@ -1,0 +1,11 @@
+llm:
+  provider: openai
+  model: gpt-4o-mini
+
+pipeline:
+  enable_validation: true
+  enable_human_review: true
+
+paths:
+  input: input_pdfs/pdfs
+  output: output
