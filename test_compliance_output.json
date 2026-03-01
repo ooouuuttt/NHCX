@@ -1,0 +1,641 @@
+{
+  "resourceType": "Bundle",
+  "id": "aefbda4c-7e9b-4349-ad27-f5ec13f94dc9",
+  "meta": {
+    "profile": [
+      "https://nrces.in/ndhm/fhir/r4/StructureDefinition/InsurancePlanBundle"
+    ],
+    "lastUpdated": "2026-03-01T05:45:51.493Z"
+  },
+  "type": "collection",
+  "timestamp": "2026-03-01T05:45:51.493Z",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:a21524b0-ebc7-49cd-bf03-706ebdbc5970",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "a21524b0-ebc7-49cd-bf03-706ebdbc5970",
+        "meta": {
+          "profile": [
+            "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Organization"
+          ]
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-identifier-type-code",
+                  "code": "ROHINI",
+                  "display": "Registration Number"
+                }
+              ]
+            },
+            "system": "https://irdai.gov.in/insurer-id",
+            "value": "IRDAIRA001"
+          }
+        ],
+        "name": "Aditya Birla Health Insurance Co. Limited",
+        "active": true,
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "+91-1800-266-9595",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "support@aditya birla.co.in",
+            "use": "work"
+          },
+          {
+            "system": "url",
+            "value": "www.adityabirlahealth.com"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:85362f9c-2337-4ed0-8af6-e7f0566f358d",
+      "resource": {
+        "resourceType": "InsurancePlan",
+        "id": "85362f9c-2337-4ed0-8af6-e7f0566f358d",
+        "meta": {
+          "profile": [
+            "https://nrces.in/ndhm/fhir/r4/StructureDefinition/InsurancePlan"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://irdai.gov.in/uin",
+            "value": "ABHI-P00001/GRP/001"
+          }
+        ],
+        "status": "active",
+        "name": "Group Protect",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-insuranceplan-type",
+                "code": "03",
+                "display": "Group"
+              }
+            ],
+            "text": "group"
+          }
+        ],
+        "ownedBy": {
+          "reference": "urn:uuid:a21524b0-ebc7-49cd-bf03-706ebdbc5970",
+          "display": "Aditya Birla Health Insurance Co. Limited"
+        },
+        "administeredBy": {
+          "reference": "urn:uuid:a21524b0-ebc7-49cd-bf03-706ebdbc5970",
+          "display": "Aditya Birla Health Insurance Co. Limited"
+        },
+        "contact": [
+          {
+            "purpose": {
+              "text": "Customer Service"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "+91-1800-266-9595"
+              }
+            ]
+          }
+        ],
+        "coverage": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "73211009",
+                  "display": "Medical treatment"
+                }
+              ],
+              "text": "Base Coverage"
+            },
+            "benefit": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-benefit-type",
+                      "code": "00",
+                      "display": "ICU"
+                    }
+                  ],
+                  "text": "ICU Charges"
+                },
+                "limit": [
+                  {
+                    "value": {
+                      "value": 100000.0,
+                      "unit": "INR",
+                      "system": "urn:iso:std:iso:4217",
+                      "code": "INR"
+                    },
+                    "code": {
+                      "text": "Maximum benefit amount"
+                    }
+                  },
+                  {
+                    "value": {
+                      "value": 730.0,
+                      "unit": "days",
+                      "system": "http://unitsofmeasure.org",
+                      "code": "d"
+                    },
+                    "code": {
+                      "text": "Pre-existing disease waiting period"
+                    }
+                  }
+                ],
+                "requirement": "ICU coverage for critical care."
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-benefit-type",
+                      "code": "03",
+                      "display": "Room Rent"
+                    }
+                  ],
+                  "text": "Room Rent"
+                },
+                "limit": [
+                  {
+                    "value": {
+                      "value": 5000.0,
+                      "unit": "INR",
+                      "system": "urn:iso:std:iso:4217",
+                      "code": "INR"
+                    },
+                    "code": {
+                      "text": "Maximum benefit amount"
+                    }
+                  },
+                  {
+                    "value": {
+                      "value": 30.0,
+                      "unit": "days",
+                      "system": "http://unitsofmeasure.org",
+                      "code": "d"
+                    },
+                    "code": {
+                      "text": "Maximum benefit duration"
+                    }
+                  },
+                  {
+                    "value": {
+                      "value": 730.0,
+                      "unit": "days",
+                      "system": "http://unitsofmeasure.org",
+                      "code": "d"
+                    },
+                    "code": {
+                      "text": "Pre-existing disease waiting period"
+                    }
+                  }
+                ],
+                "requirement": "Daily room rent coverage."
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-benefit-type",
+                      "code": "ambulance-cover",
+                      "display": "Ambulance Cover"
+                    }
+                  ],
+                  "text": "Ambulance Cover"
+                },
+                "limit": [
+                  {
+                    "value": {
+                      "value": 500.0,
+                      "unit": "INR",
+                      "system": "urn:iso:std:iso:4217",
+                      "code": "INR"
+                    },
+                    "code": {
+                      "text": "Maximum benefit amount"
+                    }
+                  }
+                ],
+                "requirement": "Emergency ambulance transport."
+              }
+            ]
+          }
+        ],
+        "period": {
+          "start": "2026-01-01",
+          "end": "2027-01-01"
+        },
+        "plan": [
+          {
+            "generalCost": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/insuranceplan-cost-type",
+                      "code": "premium",
+                      "display": "Premium"
+                    }
+                  ]
+                },
+                "value": {
+                  "value": 25000.0,
+                  "unit": "INR",
+                  "system": "urn:iso:std:iso:4217",
+                  "code": "INR"
+                }
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/insuranceplan-cost-type",
+                      "code": "deductible",
+                      "display": "Sum Insured"
+                    }
+                  ]
+                },
+                "value": {
+                  "value": 500000.0,
+                  "unit": "INR",
+                  "system": "urn:iso:std:iso:4217",
+                  "code": "INR"
+                },
+                "comment": "Overall Sum Insured for the policy"
+              }
+            ],
+            "specificCost": [
+              {
+                "category": {
+                  "coding": [
+                    {
+                      "system": "https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-plan-cost-type",
+                      "code": "exclusion",
+                      "display": "Exclusion"
+                    }
+                  ]
+                },
+                "benefit": [
+                  {
+                    "type": {
+                      "text": "Pre-Existing Diseases"
+                    },
+                    "cost": [
+                      {
+                        "type": {
+                          "coding": [
+                            {
+                              "system": "https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-plan-cost-type",
+                              "code": "exclusion",
+                              "display": "Exclusion"
+                            },
+                            {
+                              "system": "https://irdai.gov.in/exclusion-code",
+                              "code": "Excl01",
+                              "display": "IRDAI Standard Exclusion Excl01"
+                            }
+                          ],
+                          "text": "Time Bound Exclusion"
+                        },
+                        "comment": "Diseases present before policy inception are excluded for 2 years.",
+                        "value": {
+                          "value": 730.0,
+                          "unit": "days",
+                          "system": "http://unitsofmeasure.org",
+                          "code": "d"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": {
+                      "text": "War and Civil Unrest"
+                    },
+                    "cost": [
+                      {
+                        "type": {
+                          "coding": [
+                            {
+                              "system": "https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-plan-cost-type",
+                              "code": "exclusion",
+                              "display": "Exclusion"
+                            },
+                            {
+                              "system": "https://irdai.gov.in/exclusion-code",
+                              "code": "Excl04",
+                              "display": "IRDAI Standard Exclusion Excl04"
+                            }
+                          ],
+                          "text": "Permanent Exclusion"
+                        },
+                        "comment": "Coverage excludes claims due to war or civil riots.",
+                        "value": {
+                          "value": 0,
+                          "unit": "INR",
+                          "system": "urn:iso:std:iso:4217",
+                          "code": "INR"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "category": {
+                  "text": "inpatient"
+                },
+                "benefit": [
+                  {
+                    "type": {
+                      "text": "Room Rent"
+                    },
+                    "cost": [
+                      {
+                        "type": {
+                          "coding": [
+                            {
+                              "system": "http://terminology.hl7.org/CodeSystem/benefit-type",
+                              "code": "copay-percent",
+                              "display": "Copayment Percent per service"
+                            }
+                          ],
+                          "text": "10% Co-pay"
+                        },
+                        "value": {
+                          "value": 10.0,
+                          "unit": "%"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "extension": [
+          {
+            "url": "https://nrces.in/ndhm/fhir/r4/StructureDefinition/InsurancePlanEligibility-MinAge",
+            "valueString": "18"
+          },
+          {
+            "url": "https://nrces.in/ndhm/fhir/r4/StructureDefinition/InsurancePlanEligibility-MaxAge",
+            "valueString": "75"
+          },
+          {
+            "url": "https://nrces.in/ndhm/fhir/r4/StructureDefinition/InsurancePlanEligibility-RenewalAge",
+            "valueString": "99"
+          },
+          {
+            "url": "https://nrces.in/ndhm/fhir/r4/StructureDefinition/InsurancePlanEligibility-PreExistingWaiting",
+            "valueString": "2 years"
+          },
+          {
+            "url": "https://nrces.in/ndhm/fhir/r4/StructureDefinition/InsurancePlanEligibility-Condition",
+            "valueString": "Indian citizen"
+          },
+          {
+            "url": "https://nrces.in/ndhm/fhir/r4/StructureDefinition/InsurancePlanEligibility-Condition",
+            "valueString": "Resident of India"
+          },
+          {
+            "url": "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Claim-Exclusion",
+            "extension": [
+              {
+                "url": "category",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-claim-exclusion",
+                      "code": "Excl01",
+                      "display": "Pre-Existing Diseases"
+                    }
+                  ],
+                  "text": "Time Bound"
+                }
+              },
+              {
+                "url": "statement",
+                "valueString": "Diseases present before policy inception are excluded for 2 years."
+              }
+            ]
+          },
+          {
+            "url": "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Claim-Exclusion",
+            "extension": [
+              {
+                "url": "category",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "https://nrces.in/ndhm/fhir/r4/CodeSystem/ndhm-claim-exclusion",
+                      "code": "Excl04",
+                      "display": "War and Civil Unrest"
+                    }
+                  ],
+                  "text": "Permanent"
+                }
+              },
+              {
+                "url": "statement",
+                "valueString": "Coverage excludes claims due to war or civil riots."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a057d0bb-025b-47fc-b93f-c01b5313c87d",
+      "resource": {
+        "resourceType": "Group",
+        "id": "a057d0bb-025b-47fc-b93f-c01b5313c87d",
+        "type": "person",
+        "actual": false,
+        "name": "Insured Group Members"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:05300f33-e67a-46e5-96d6-cfef38f37f68",
+      "resource": {
+        "resourceType": "Coverage",
+        "id": "05300f33-e67a-46e5-96d6-cfef38f37f68",
+        "meta": {
+          "profile": [
+            "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Coverage"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "HIP",
+              "display": "health insurance plan policy"
+            }
+          ]
+        },
+        "subscriber": {
+          "reference": "urn:uuid:a057d0bb-025b-47fc-b93f-c01b5313c87d"
+        },
+        "beneficiary": {
+          "reference": "urn:uuid:a057d0bb-025b-47fc-b93f-c01b5313c87d"
+        },
+        "period": {
+          "start": "2024-01-01",
+          "end": "2025-01-01"
+        },
+        "payor": [
+          {
+            "reference": "urn:uuid:a21524b0-ebc7-49cd-bf03-706ebdbc5970",
+            "display": "Aditya Birla Health Insurance Co. Limited"
+          }
+        ],
+        "class": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/coverage-class",
+                  "code": "plan",
+                  "display": "Plan"
+                }
+              ]
+            },
+            "value": "Group Protect",
+            "name": "Group Protect"
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:a99fe147-8262-427d-b861-d14a2e8f7255",
+      "resource": {
+        "resourceType": "CoverageEligibilityRequest",
+        "id": "a99fe147-8262-427d-b861-d14a2e8f7255",
+        "meta": {
+          "profile": [
+            "https://nrces.in/ndhm/fhir/r4/StructureDefinition/CoverageEligibilityRequest"
+          ]
+        },
+        "status": "active",
+        "purpose": [
+          "benefits"
+        ],
+        "patient": {
+          "reference": "urn:uuid:a057d0bb-025b-47fc-b93f-c01b5313c87d"
+        },
+        "created": "2026-03-01",
+        "insurer": {
+          "reference": "urn:uuid:a21524b0-ebc7-49cd-bf03-706ebdbc5970",
+          "display": "Aditya Birla Health Insurance Co. Limited"
+        },
+        "insurance": [
+          {
+            "coverage": {
+              "reference": "urn:uuid:05300f33-e67a-46e5-96d6-cfef38f37f68"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:18645f3f-e7d4-4fd6-abf8-cbd10e2d6ff2",
+      "resource": {
+        "resourceType": "Claim",
+        "id": "18645f3f-e7d4-4fd6-abf8-cbd10e2d6ff2",
+        "meta": {
+          "profile": [
+            "https://nrces.in/ndhm/fhir/r4/StructureDefinition/Claim"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "institutional",
+              "display": "Institutional"
+            }
+          ]
+        },
+        "use": "preauthorization",
+        "patient": {
+          "reference": "urn:uuid:a057d0bb-025b-47fc-b93f-c01b5313c87d"
+        },
+        "created": "2026-03-01",
+        "insurer": {
+          "reference": "urn:uuid:a21524b0-ebc7-49cd-bf03-706ebdbc5970",
+          "display": "Aditya Birla Health Insurance Co. Limited"
+        },
+        "provider": {
+          "reference": "urn:uuid:a21524b0-ebc7-49cd-bf03-706ebdbc5970"
+        },
+        "priority": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/processpriority",
+              "code": "normal"
+            }
+          ]
+        },
+        "insurance": [
+          {
+            "sequence": 1,
+            "focal": true,
+            "coverage": {
+              "reference": "urn:uuid:05300f33-e67a-46e5-96d6-cfef38f37f68"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:00b931a1-a2f2-4a61-ab83-53b09ee2ce10",
+      "resource": {
+        "resourceType": "ClaimResponse",
+        "id": "00b931a1-a2f2-4a61-ab83-53b09ee2ce10",
+        "meta": {
+          "profile": [
+            "https://nrces.in/ndhm/fhir/r4/StructureDefinition/ClaimResponse"
+          ]
+        },
+        "status": "active",
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/claim-type",
+              "code": "institutional",
+              "display": "Institutional"
+            }
+          ]
+        },
+        "use": "preauthorization",
+        "patient": {
+          "reference": "urn:uuid:a057d0bb-025b-47fc-b93f-c01b5313c87d"
+        },
+        "created": "2026-03-01",
+        "insurer": {
+          "reference": "urn:uuid:a21524b0-ebc7-49cd-bf03-706ebdbc5970",
+          "display": "Aditya Birla Health Insurance Co. Limited"
+        },
+        "request": {
+          "reference": "urn:uuid:18645f3f-e7d4-4fd6-abf8-cbd10e2d6ff2"
+        },
+        "outcome": "queued"
+      }
+    }
+  ]
+}

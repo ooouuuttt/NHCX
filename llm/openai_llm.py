@@ -117,7 +117,9 @@ Return a JSON object with this EXACT structure:
   },
   "network_type": "cashless | reimbursement | both",
   "portability": null,
-  "policy_period_years": "Duration of the policy in years, e.g. '1'"
+  "policy_period_years": "Duration of the policy in years, e.g. '1'",
+  "period_start_date": "Policy period start date if explicitly mentioned (YYYY-MM-DD format, e.g. '2024-01-01')",
+  "period_end_date": "Policy period end date if explicitly mentioned (YYYY-MM-DD format)"
 }
 
 === MANDATORY HARD RULES ===
@@ -174,6 +176,14 @@ Return a JSON object with this EXACT structure:
 
 13. waiting_period_days should ONLY be set if the PDF explicitly states a waiting period
     for that specific benefit. Do NOT assume waiting periods.
+
+14. MONETARY AMOUNT EXTRACTION:
+    - Extract numeric values EXACTLY: 500000 not \"5 lakh\"
+    - If PDF says \"Rs. 5,00,000\" extract as \"500000\"
+    - If PDF says \"5 Lakh\" extract as \"500000\"
+    - If PDF says \"up to Sum Insured\" use the actual SI value instead
+    - Never use text like Lakh, Crore. Always convert to plain number.
+    - If unknown, leave empty, never use 0 or N/A.
 """
 
 
@@ -394,7 +404,9 @@ def merge_results(results):
         },
         "network_type": "",
         "portability": None,
-        "policy_period_years": ""
+        "policy_period_years": "",
+        "period_start_date": "",
+        "period_end_date": ""
     }
 
 
@@ -404,7 +416,8 @@ def merge_results(results):
 
         # Scalar fields — take the first non-placeholder value
         for key in ["organization", "insurer_id", "uin", "plan_name", "plan_type", "coverage_type",
-                     "sum_insured", "currency", "network_type", "policy_period_years", "premium_amount"]:
+                     "sum_insured", "currency", "network_type", "policy_period_years", "period_start_date", 
+                     "period_end_date", "premium_amount"]:
             val = _clean_value(r.get(key, ""))
             if val and not final[key]:
                 final[key] = val
